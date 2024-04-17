@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-4wjeayqyjdv_d#5j1&l0r$bdokd2cg4&ncef*ug_@j(y=&1e06
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['furniture-gallery-1niy.onrender.com','localhost']
+ALLOWED_HOSTS = ['furniture-gallery-1niy.onrender.com','localhost', '127.0.0.1']
 
 
 # Application definition
