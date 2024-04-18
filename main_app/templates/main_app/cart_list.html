@@ -2,34 +2,26 @@
 
 
 {% block content %}
+<div class="container">
 
-<h1>Carts</h1>
+  <div class="row" style="background-color: white; margin-top: 50px; width: 450px;">
+    {% for item in cart.furniture_item.all %}
+      <div class="col s6 m6 l3">
+            <p>{{ item.name }}</p>
+            <!-- <p>{{ item.description }}</p> -->
+            <p>${{ item.price }} x {{ item.quantity }} </p>
+            <form action="{% url 'disassoc_item' cart.id item.id %}" method="POST">
+              {% csrf_token %}
+              <button type="submit" class="btn">Remove</button>
+            </form>
+          {% endfor %}
+        
+        <p>Total Price: {{ total_price }}</p>
+      </div>
 
-<hr>
-<div class="row">
-  <div class="col s6">
-    <h3>Shopping Cart</h3>
-      {% for item in cart.furniture_item.all %}
-        <p>{{ item.name }}</p>
-        <p>{{ item.description }}</p>
-        <p>${{ item.price }}</p>
 
-        <p>quantity: {{ item.quantity }} </p>
-        <form action="{% url 'disassoc_item' cart.id item.id %}" method="POST">
-          {% csrf_token %}
-          <button type="submit" class="btn">Remove</button>
-        </form>
-      {% endfor %}
-    <!-- {% if cart.quantity.count %} -->
-    
-  
-    <!-- {% else %}
-    <h5>No items in cart</h5>
-    {% endif %}   -->
-    <p>Total Price: {{ total_price }}</p>
   </div>
-  <!-- Available toys will come after this line -->
-    
+
 {% endblock %}
     
 
