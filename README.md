@@ -55,5 +55,30 @@ This web based application has full CRUD operations and uses the following techn
 * Allow customers to "like" items to save them for later
 * Analytics feature for super admin to understand website traffic and current market demands
 
-I am going to add more details here: 
 
+
+This is Furniture Gallery site landing page. 
+![Site initial state](https://i.imgur.com/iU877xv.png)
+
+Users can browse the site without log in, but, there is no shoping cart sign on the top nav
+![Site initial state](https://i.imgur.com/YqLmXEK.png)
+
+
+This site serves two types of users. The first type of users are regular users. Regular users can browse 
+the site and review any furniture items without login/signup. Regular users can see different categories of this site:
+Beds, Tables, Chairs, Sofas and all inventory. But, if users want to buy specific furniture item, she/he must sign up on the site and log in the site in 
+order to put furniture items in the shopping cart to pay for it. The following pictures show the login users can click the sidebar to filter each furniture category. 
+
+When a user click on "Beds" on the side bar, the site can filter bed data. 
+![Site initial state](https://i.imgur.com/UKJepLv.png)
+
+When a user click on "Tables" on the side bar, the site can only show tables data. 
+![Site initial state](https://i.imgur.com/QKHoG90.png)
+
+When a user click on "Chairs" on the side bar, the site can only show chairs data. 
+![Site initial state](https://i.imgur.com/nOrc98A.png)
+
+When a user click on "Sofas" on the side bar, the site can only show Sofas data. 
+![Site initial state](https://i.imgur.com/IWQCo44.png)
+
+When a user click on "All inventory" on the side bar, the site show all data. 
