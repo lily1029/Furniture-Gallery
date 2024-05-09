@@ -55,3 +55,5 @@ This web based application has full CRUD operations and uses the following techn
 * Allow customers to "like" items to save them for later
 * Analytics feature for super admin to understand website traffic and current market demands
 
+I am going to add more details here: 
+
