@@ -57,7 +57,7 @@ This web based application has full CRUD operations and uses the following techn
 
 
 
-This is Furniture Gallery site landing page. 
+This is Furniture Gallery site landing page. For simplicity, you can use username: JackyGreen@gmail.com and password: Test123@ to browse the site or you can sign up a regular user. 
 ![Site initial state](https://i.imgur.com/iU877xv.png)
 
 Users can browse the site without log in, but, there is no shoping cart sign on the top nav
@@ -82,3 +82,9 @@ When a user click on "Sofas" on the side bar, the site can only show Sofas data.
 ![Site initial state](https://i.imgur.com/IWQCo44.png)
 
 When a user click on "All inventory" on the side bar, the site show all data. 
+
+When a user clicks on each specific furniture item, it goes to the furniture detail page. The site is using Materialize (Carousel) technique to show images sliders. It makes the site robust and more clear views for customers.  The following pictures for one furniture item(Luxury Dining Table). 
+![Site initial state](https://i.imgur.com/HexWk3z.png)
+![Site initial state](https://i.imgur.com/gsSzv2A.png)
+![Site initial state](https://i.imgur.com/DsAG71G.png)
+![Site initial state](https://i.imgur.com/mK212WZ.png)
